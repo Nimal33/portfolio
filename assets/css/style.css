@@ -192,4 +192,15 @@ h6,
 
 .service-card:hover .service-icon {
     transform: scale(1.1) rotate(5deg);
+
+}
+body{
+    overflow-x:hidden;
+}
+
+@media (max-width:768px){
+    .btn{
+        padding:12px 20px;   /* reduce large px-5 padding */
+        max-width:100%;
+    }
 }
